@@ -1,15 +1,59 @@
 body{
     font-family: 'HiraKakuProN-W3', Arial;
-    margin-left: 0;
-    margin-right: 0;
-}
-h2{
-    font-size: min(calc(80vw / 13), 60px);
-    text-align: center;
     margin: 0;
 }
+header{
+	background-color: #3cb371;
+	display: flex;
+	width: 100%;
+	height: 105px;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	align-items: center;
+}
+header h1{
+    font-size: calc(50vw / 13);
+	color: white;
+    text-align: center;
+	line-height: 1.25em;
+    margin: 0;
+}
+nav{
+	width: 40%;
+	height: inherit;
+}
+nav ul{
+	padding-left: 0;
+	margin-left: 5%;
+	width: 95%;
+	height: inherit;
+	font-size: 0;
+}
+nav li{
+	list-style:none;
+	font-size: 20px;
+	line-height: 105px;
+	text-align-last: center;
+	padding-left: 0;
+}
 .logo{
-    margin: auto auto;
+	display: inline-block;
+	width: 10%;
+}
+.logo:hover{
+	background-color: #2e8855;
+}
+.button{
+	display: inline-block;
+	height: 100%;
+	color: white;
+	width: calc(100% / 3);
+}
+.button:hover{
+	background-color: #2e8855;
 }
 .photo{
     width: 15vw;
