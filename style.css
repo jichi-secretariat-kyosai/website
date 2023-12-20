@@ -1,0 +1,84 @@
+body{
+    font-family: 'HiraKakuProN-W3', Arial;
+    margin-left: 0;
+    margin-right: 0;
+}
+h2{
+    font-size: min(calc(80vw / 13), 60px);
+    text-align: center;
+    margin: 0;
+}
+.logo{
+    margin: auto auto;
+}
+.photo{
+    width: 15vw;
+    height: 22.5vw;
+    border-radius: 20% 0 0 20% / 50% 0 0 50%;
+}
+.title{
+    width: 100vw;
+    height: 22.5vw;
+    background-color: #3cb371;
+    color: white;
+    display: flex;
+    margin-bottom: 5px;
+}
+.map{
+    display: block;
+    aspect-ratio: 4 / 3;
+    width: 75%;
+    border: 0;
+    margin: 0 auto;
+}
+@media screen and (min-width: 481px) {
+    .content{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+    }
+    .main{
+        width: 70%;
+    }
+    .side{
+        width: 30%;
+        text-align: center;
+    }
+    p{
+        font-size: 15pt;
+    }
+}
+@media screen and (max-width: 480px) {
+    .content{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .side{
+        text-align: center;
+    }
+    p{
+        font-size: 10.5pt;
+    }
+}
+p.danwa{
+    text-indent:1em;
+    margin:0;
+}
+p.law{
+    margin-bottom:0.5em;
+}
+p.midashi{
+    padding-left:1em;
+}
+p.jou{
+    padding-left:1em;
+    text-indent:-1em;
+}
+p.gou{
+    padding-left:2em;
+    text-indent:-1em;
+}
+p.gousai{
+    padding-left:3em;
+    text-indent:-1em;
+}
